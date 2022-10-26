@@ -6,7 +6,7 @@ teste prático
 - depois disso é só usar o Xampp e habilitar o PhpMyAdmin
 - e por fim, basta ir em localhost/phpmyadmin e importar o arquivo crud.sql
 
-obs: caso o bootstrap não funcione, você deve arrumar o diretorio dos assets em cadastro.php & painel.php
+obs: caso o bootstrap não funcione, basta mudar o nome da pasta do projeto para "crud"
 
 # linguagens usadas:
 - php
