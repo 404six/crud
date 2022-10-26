@@ -20,7 +20,7 @@ h11 {
 }
 
 button, input, optgroup, select, textarea {
-  color: inherit;
+  color: black;
   margin-left: 5px;
 }
 
@@ -38,7 +38,7 @@ button, input, optgroup, select, textarea {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #222;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
