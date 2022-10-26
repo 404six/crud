@@ -139,7 +139,6 @@ $db = new db();
                 case "edit-button-2":
                     coluna = 1;
                     $('#modal-content').text('Edite o telefone');
-                    $('#modal-content').append('<form id="editar-form" method="get"><br><input name="novo_valor" id="novo_valor" class="form-control" placeholder="Novo valor" type="text"><br>')
                     break;
                 case "edit-button-3":
                     coluna = 2;
