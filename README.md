@@ -3,7 +3,7 @@ teste prático
 
 # como usar:
 - basta baixar o repositório
-- depois disso é só usar o xampp, ligar PhpMyAdmin
+- depois disso é só usar o Xampp, habilitar PhpMyAdmin
 - e por fim, basta ir em localhost/phpmyadmin e importar o arquivo crud.sql
 
 
