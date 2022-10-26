@@ -844,8 +844,8 @@ body{
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:1.42857143;
-    color:#333;
-    background-color:#fff
+    color:#fff;
+    background-color:#222
 }
 input,button,select,textarea{
     font-family:inherit;
@@ -2074,8 +2074,8 @@ output{
     padding:6px 12px;
     font-size:14px;
     line-height:1.42857143;
-    color:#555;
-    background-color:#fff;
+    color:#eee;
+    background-color:#444;
     background-image:none;
     border:1px solid #ccc;
     border-radius:4px;
@@ -2103,7 +2103,7 @@ output{
 }
 .form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{
     cursor:not-allowed;
-    background-color:#eee;
+    background-color:#333;
     opacity:1
 }
 textarea.form-control{
@@ -4301,7 +4301,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:hover,a.list-gro
 }
 .panel{
     margin-bottom:20px;
-    background-color:#fff;
+    background-color:#222;
     border:1px solid transparent;
     border-radius:4px;
     -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
