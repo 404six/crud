@@ -147,14 +147,15 @@ $db = new db();
                 
             }
 
-            $('#modal-content').append('<form id="editar-form" method="get"><br><input name="novo_valor" id="novo_valor" class="form-control" placeholder="Novo valor" type="text"><br><a id="enviar-btn" href="#" class="btn bg-primary" onClick="enviar_novo_valor(' + fileira.id +','+ coluna + ')";>Editar</a></form>');
+            $('#modal-content').append('<form id="editar-form" method="get"><br><input name="novo_valor" id="novo_valor" class="form-control" onkeypress="return enter(event);" placeholder="Novo valor" type="text"><br><a id="enviar-btn" href="#" class="btn bg-primary" onClick="enviar_novo_valor(' + fileira.id +','+ coluna + ')";>Editar</a></form>');
         }
         
-         $("#editar-form").keyup(function(event) {
-            if (event.keyCode === 13) {
+		function enter(evento){
+			// enviar o form apenas apertando enter (sem precisar clicar no botão para editar)
+			 if (evento.keyCode === 13) {
                 $("#enviar-btn").click();
             }
-        });
+		}
 
         function enviar_novo_valor(id, coluna_id) {
             $.ajax({
